@@ -1,74 +1,110 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
 # Personal info
 name: Julio Eduardo Orozco
-location: Muncie, IN, 47304
-phone: +1 (765) 228-3614
+title: Senior Student at Ball State University  
 email: jeorozco2002@gmail.com
-github: https://github.com/jeorozc0
+website: https://github.com/jeorozc0
 
-# Experience Section
-experience:
-  - title: Front Desk Assistant
-    organization: Scheidler Apartments, Ball State University
-    location: Muncie, IN
-    duration: September 2022 - February 2023
-    responsibilities:
-      - Provided excellent customer service to apartment residents, resolving issues and organizing documents.
-      - Cultivated positive community relations through effective communication and conflict resolution.
-  - title: Website Designer
-    organization: Global Institute of Entrepreneurship
-    location: Managua, Nicaragua
-    duration: April 2018 - January 2019
-    responsibilities:
-      - Designed and created portfolio websites for students at the institute.
-      - Independently designed and created websites using Adobe Suite, HTML, CSS, and JavaScript.
+# Dark Mode (true/false/never)
+darkmode: false
 
-# Projects Section
-projects:
-  - title: Personalized Learning Website
-    link: https://github.com/hergin/PersonalizedLearningPlanWebApp
-    description: |
-      Led a team to develop a full-stack goal tracker web application for Stanford CME, enabling users to easily track learning modules and milestones.
-      Utilized React.js, Node.js, and PostgreSQL to create a high-performance, scalable application with efficient and reusable components.
-      Implemented state management, UX/UI design, and authentication to enhance user experience and ensure secure access.
-      Designed and optimized a scalable back-end architecture, improving database performance and ensuring high availability.
-  - title: StrengthSync
-    link: http://strenght-sync.vercel.app
-    description: |
-      Developed StrengthSync, a next-generation exercise companion, using React, TypeScript, Tailwind, and Supabase.
-      Focused on intuitive UI/UX design and dynamic tracking features for an enhanced user experience.
-      Created tools for intuitive workout creation and quality tracking capabilities, providing users with a seamless fitness tracking experience.
+# Social links
+github_username: jeorozc0
 
-# Education Section
-education:
-  - degree: Bachelor of Science (B.S.) - Computer Science
-    institution: Ball State University
-    location: Muncie, IN
-    duration: August 2020 - May 2024
+# About Section
+about_profile_image: images/profile.jpg
+about_content: |
+  Hi, my name's Julio and I'm a Computer Science Grad at Ball State University. I'm developing my skills on web and application design. I have worked in multiple projects related to finding and solving problems through web development.
 
-# Skills Section
-skills:
-  programming_languages: 
-    - JavaScript (ES6+)
-    - TypeScript
-    - Python
-    - Java
-    - SQL/Postgres
-    - HTML/CSS
-  frameworks: 
-    - React.js (v16+)
-    - Next.js
-    - React Native
-    - Node.js/Express
-    - Tailwind CSS
-  tools: 
-    - Git
-    - Docker
-    - CI/CD
-    - AWS
-    - Flask
-  core_competencies: 
-    - Front-end development
-    - API integration
-    - Performance optimization
-    - Cross-functional teamwork
-    - Client interaction
+# Content Sections
+content:
+  - title: Projects
+    layout: list
+    content:
+      - layout: top-middle
+        title: Personalized Learning Website
+        link: https://github.com/hergin/PersonalizedLearningPlanWebApp
+        additional_links:
+          - title: Personalized Learning Website
+            icon: fab fa-github
+            url: https://github.com/hergin/PersonalizedLearningPlanWebApp
+        description: |
+          Led a team to develop a full-stack goal tracker web application for Stanford CME, enabling users to easily track learning modules and milestones.
+          Utilized React.js, Node.js, and PostgreSQL to create a high-performance, scalable application with efficient and reusable components.
+          Implemented state management, UX/UI design, and authentication to enhance user experience and ensure secure access.
+          Designed and optimized a scalable back-end architecture, improving database performance and ensuring high availability.
+      - layout: top-middle
+        title: StrengthSync
+        link: http://strenght-sync.vercel.app
+        additional_links:
+          - title: StrengthSync
+            icon: fab fa-github
+            url: http://strenght-sync.vercel.app
+        description: |
+          Developed StrengthSync, a next-generation exercise companion, using React, TypeScript, Tailwind, and Supabase.
+          Focused on intuitive UI/UX design and dynamic tracking features for an enhanced user experience.
+          Created tools for intuitive workout creation and quality tracking capabilities, providing users with a seamless fitness tracking experience.
+
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: Scheidler Apartments
+        link: https://www.bsu.edu/map/buildings/campus/scheidler-apartments
+        sub_title: Front Desk Assistant
+        caption: September 2022 - February 2023
+        description: |
+          Provided excellent customer service to apartment residents, resolving issues and organizing documents.
+          Cultivated positive community relations through effective communication and conflict resolution.
+      - layout: left
+        title: Global Institute of Entrepreneurship
+        link: https://example.com
+        sub_title: Website Designer
+        caption: April 2018 - January 2019
+        description: |
+          Designed and created portfolio websites for students at the institute.
+          Independently designed and created websites using Adobe Suite, HTML, CSS, and JavaScript.
+
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: Ball State University
+        caption: 2020 - Present
+        sub_title: BSc Computer Science
+        quote: |
+          Founded in 1918, Ball State University offers highly respected programs in education, architecture, business, communications, fine arts, sciences, humanities, and health professions.
+        description: |
+          Senior Student pursuing a Bachelor's in Computer Science with a concentration in Web and Application Design.
+
+  - title: Skills
+    layout: text
+    content: |
+      Programming Languages: JavaScript (ES6+), TypeScript, Python, Java, SQL/Postgres, HTML/CSS
+      Frameworks: React.js (v16+), Next.js, React Native, Node.js/Express, Tailwind CSS
+      Tools: Git, Docker, CI/CD, AWS, Flask
+      Core Competencies: Front-end development, API integration, performance optimization, cross-functional teamwork, client interaction
+
+  - title: A Little More About Me
+    layout: text
+    content: |
+      Alongside my interests in web design and software engineering, some of my other hobbies include gaming, reading, and watching movies.
+
+# Footer
+footer_show_references: true
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
