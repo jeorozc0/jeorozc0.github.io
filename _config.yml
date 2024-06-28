@@ -6,109 +6,65 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Julio Orozco
-title: Senior student at Ball State University  
-email: jeorozco@bsu.edu
-website: www.github.com/jeorozc0
+name: Julio Eduardo Orozco
+title: Web Developer
+email: jeorozco2002@gmail.com
+website: https://github.com/jeorozc0
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-# twitter_username: facespics
-github_username:  jeorozc0
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-#instagram_username: jameswgrant
-#linkedin_username: jameswgrant
-# xing_username: jekyll
-# pinterest_username: jekyll
-#youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
-
-# Additional icon links
-#additional_links:
-#- title: itsgoingto.be
-#  icon: fas fa-globe
-#  url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+github_username: jeorozc0
 
 # About Section
-# about_title: About Me
 about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Julio and I'm a senior student currently at Ball State University. I'm developing my skills on web and application design. I have worked in multiple projects related to finding and solving problems through web development.
+about_content: |
+  Hi, my name's Julio and I'm a Computer Science Grad at Ball State University. I'm developing my skills on web and application design. I have worked in multiple projects related to finding and solving problems through web development.
 
+# Content Sections
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: list
     content:
       - layout: top-middle
-        title: Bus Shuttle
-        link: https://github.com/jtbrown2-bsu/CS420BusShuttle
-        # link_text: Project Website
+        title: Personalized Learning Website
+        link: https://github.com/hergin/PersonalizedLearningPlanWebApp
         additional_links:
-          - title:  jtbrown2-bsu/CS420BusShuttle
+          - title: Personalized Learning Website
             icon: fab fa-github
-            url: https://github.com/jtbrown2-bsu/CS420BusShuttle
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        #quote: >
-          #This team project was my first dip into the world of web applicationd and software enginering. It aims to solve the problem of registering the amount of people that get in and out of buses at Ball State
-        description: | # this will include new lines to allow paragraphs
-          This team project was my first dip into the world of web applicationd and software enginering. It aims to solve the problem of registering the amount of people that get in and out of buses at Ball State. It provided me valuable knowledge into .NET programming and how working in a proper team is like.
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+            url: https://github.com/hergin/PersonalizedLearningPlanWebApp
+        description: |
+          This team project aimed to solve the problem of registering the amount of people that get in and out of buses at Ball State. It provided valuable knowledge in .NET programming and teamwork.
+  - title: Experience
+    layout: list
     content:
       - layout: left
         title: Scheidler Apartments
         link: https://www.bsu.edu/map/buildings/campus/scheidler-apartments
-        # link_text: boringcompany.com
-        sub_title: Front desk Clerk
+        sub_title: Front Desk Assistant
         caption: September 2022 - March 2023
-        #quote: >
-          #Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            While my time at the appartments office, my role was to help residents have a smooth experience while living at Schiedler. Other responsabilities included managemnt of documents, mail, and information from our residents.
-
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+        description: |
+          Provided excellent customer service to apartment residents, resolved issues, and organized documents. Cultivated positive community relations through effective communication and conflict resolution.
+  - title: Education
+    layout: list
     content:
       - layout: left
         title: Ball State University
         caption: 2020 - Present
         sub_title: BSc Computer Science
-        quote: >
-          Founded in 1918 to help address Indiana's need for more and better teachers, Ball State University has grown to seven academic colleges with highly respected programs in education, architecture, business, communications, fine arts, sciences and humanities, and the health profession.
-        description: | # this will include new lines to allow paragraphs
-          Senior Student at Ball State university. Apart from my Bachelors in Computer Science, I am also enrolled in the Web and Application Design concentration.
+        quote: |
+          Founded in 1918, Ball State University offers highly respected programs in education, architecture, business, communications, fine arts, sciences, humanities, and health professions.
+        description: |
+          Senior Student pursuing a Bachelor's in Computer Science with a concentration in Web and Application Design.
 
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in web design and software engineering some of my other interests and hobbies are:
-      - Gaming
-      - Reading
-      - Movies
-
-
-
+    content: |
+      Alongside my interests in web design and software engineering, some of my other hobbies include gaming, reading, and watching movies.
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
 
 # Build settings
 remote_theme: sproogen/resume-theme
