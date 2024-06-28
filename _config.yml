@@ -36,16 +36,15 @@ content:
             url: https://github.com/hergin/PersonalizedLearningPlanWebApp
         description: |
           Led a team to develop a full-stack goal tracker web application for Stanford CME, enabling users to easily track learning modules and milestones. Utilized React.js, Node.js, and PostgreSQL to create a high-performance, scalable application with efficient and reusable components. Implemented state management, UX/UI design, and authentication to enhance user experience and ensure secure access. Designed and optimized a scalable back-end architecture, improving database performance and ensuring high availability.
-
       - layout: top-middle
         title: StrengthSync
-        link: https://strength-sync.vercel.app
+        link: http://strenght-sync.vercel.app
         additional_links:
           - title: StrengthSync
-            icon: fas fa-globe
-            url: https://strength-sync.vercel.app
+            icon: fab fa-github
+            url: http://strenght-sync.vercel.app
         description: |
-          Developed StrengthSync, a next-generation exercise companion, using React, TypeScript, Tailwind CSS, and Supabase. Focused on intuitive UI/UX design and dynamic tracking features for an enhanced user experience. Created tools for intuitive workout creation and quality tracking capabilities, providing users with a seamless fitness tracking experience.
+          Developed StrengthSync, a next-generation exercise companion, using React, TypeScript, Tailwind, and Supabase. Focused on intuitive UI/UX design and dynamic tracking features for an enhanced user experience. Created tools for intuitive workout creation and quality tracking capabilities, providing users with a seamless fitness tracking experience.
 
   - title: Experience
     layout: list
@@ -56,15 +55,14 @@ content:
         sub_title: Front Desk Assistant
         caption: September 2022 - March 2023
         description: |
-          Provided excellent customer service to apartment residents, resolved issues, and organized documents. Cultivated positive community relations through effective communication and conflict resolution.
-
+          Provided excellent customer service to apartment residents, resolving issues and organizing documents. Cultivated positive community relations through effective communication and conflict resolution.
       - layout: left
         title: Global Institute of Entrepreneurship
-        link: https://www.example.com
+        link: https://example.com
         sub_title: Website Designer
         caption: April 2018 - January 2019
         description: |
-          Designed and created portfolio websites for students at the institute using Adobe Suite, HTML, CSS, and JavaScript. Independently managed website projects from concept through to completion, ensuring high-quality deliverables.
+          Designed and created portfolio websites for students at the institute. Independently designed and created websites using Adobe Suite, HTML, CSS, and JavaScript.
 
   - title: Education
     layout: list
