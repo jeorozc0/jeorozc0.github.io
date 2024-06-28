@@ -56,7 +56,6 @@ content:
     content:
       - layout: left
         title: Scheidler Apartments
-        link: https://www.bsu.edu/map/buildings/campus/scheidler-apartments
         sub_title: Front Desk Assistant
         caption: September 2022 - February 2023
         description: |
@@ -64,7 +63,6 @@ content:
           Cultivated positive community relations through effective communication and conflict resolution.
       - layout: left
         title: Global Institute of Entrepreneurship
-        link: https://example.com
         sub_title: Website Designer
         caption: April 2018 - January 2019
         description: |
@@ -76,7 +74,7 @@ content:
     content:
       - layout: left
         title: Ball State University
-        caption: 2020 - Present
+        caption: 2020 - 2024
         sub_title: BSc Computer Science
         quote: |
           Founded in 1918, Ball State University offers highly respected programs in education, architecture, business, communications, fine arts, sciences, humanities, and health professions.
