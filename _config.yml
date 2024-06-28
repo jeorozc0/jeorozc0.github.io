@@ -87,8 +87,14 @@ content:
     layout: text
     content: |
       Programming Languages: JavaScript (ES6+), TypeScript, Python, Java, SQL/Postgres, HTML/CSS
+    layout: text
+    content: |
       Frameworks: React.js (v16+), Next.js, React Native, Node.js/Express, Tailwind CSS
+    layout: text
+    content: |
       Tools: Git, Docker, CI/CD, AWS, Flask
+    layout: text
+    content: |
       Core Competencies: Front-end development, API integration, performance optimization, cross-functional teamwork, client interaction
 
   - title: A Little More About Me
